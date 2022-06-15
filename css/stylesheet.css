@@ -23,7 +23,7 @@ video {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -32,7 +32,7 @@ video {
   background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,1) 100%);
 }
 
-.bg-landing {
+.bg-landing, .footer {
   background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,0.75) 100%);
   color: #fff;
   position: relative;
@@ -40,6 +40,12 @@ video {
 
 .bg-landing a {
   color: #fff;
+}
+
+.home, .about, .corporate {
+  background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,0.9) 100%);
+  color: #fff;
+  position: relative;
 }
 
 .gym {
@@ -50,17 +56,6 @@ video {
   display: inline-block;
   text-indent: -9999px;
   margin: auto;
-}
-
-.home, .about, .corporate {
-  background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,0.75) 100%);
-  color: #fff;
-}
-
-.footer {
-  padding: 80px;
-  background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,0.75) 100%);
-  color: #fff;
 }
 
 footer.bg-queued a {
