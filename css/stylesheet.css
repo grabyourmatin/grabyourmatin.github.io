@@ -52,7 +52,13 @@ video {
   margin: auto;
 }
 
-.corporate {
+.home, .about, .corporate {
+  background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,0.75) 100%);
+  color: #fff;
+}
+
+.footer {
+  padding: 80px;
   background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,0.75) 100%);
   color: #fff;
 }
